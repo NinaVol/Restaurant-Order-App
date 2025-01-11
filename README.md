@@ -24,7 +24,7 @@ This project is a simulation of a food ordering application for a restaurant. Th
 ## Installation
 
 # Clone the repository
-git clone https://github.com/your-repo/restaurant-order-app.git
+git clone https:(https://github.com/NinaVol/Restaurant-Order-App.git)
 
 # Navigate to the project directory
 cd restaurant-order-app
