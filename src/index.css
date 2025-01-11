@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #161616;
+    background-image: url('./assets/restaurant_hall_black_and_white.jpg');    
+  }
+
+.block {  
+    background-color: rgba(255, 255, 255, 0.513);  
+    padding: 20px;  
+}
+
+.App{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+   margin-bottom: 20px;
+   font-size: 30px;
+   font-style: italic;
+   font-family: "Playwrite ES Deco", serif;
+}
+img{
+    width: 500px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);  
+}
+img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+.cartIcon{
+    width: 70px;
+}
+.categoryButtonSelected{
+    background-color: green;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
+.categoryButton:hover {
+    background-color: #fdeb6b;
+}
+.icon{
+    width: 20px;
+}
+p,h2, button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+button {
+    background-color: #fdeb6b;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn-plus{
+    margin-right: 9px;
+}
+.btn-minus{
+    padding: 1px 8px ;
+}
+@media (max-width: 768px) {
+    .App{
+        flex-direction: column;
+    }
+    img{
+        width: 95%;
+    }
+   
+}
+
+  
